@@ -15,6 +15,7 @@ pipeline {
                 terraform --version
                 '''
             }
+            
         }
         stage('Terraform Init') {
             steps {
